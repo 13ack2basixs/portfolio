@@ -6,6 +6,11 @@
     font-size: 3.5rem;
 }
 
+.nus-link {
+    color: inherit;
+    text-underline-offset: 5px;
+}
+
 /* .about-para-container {
     width: 200px;
     word-wrap: break-word;
