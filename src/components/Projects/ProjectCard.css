@@ -1,0 +1,71 @@
+.project-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap;
+}
+
+.project-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+#project-title {
+    font-size: 1.5rem;
+}
+
+#project-title {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.project-container p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.project-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.tech-logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.tech-logos img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.project-image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-image .svg-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-image .other-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
