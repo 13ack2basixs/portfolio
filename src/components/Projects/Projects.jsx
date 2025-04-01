@@ -5,7 +5,7 @@ import fintrack from '../../assets/previews/fintrack.png';
 
 import gitSVG from '../../assets/tools/git.svg';
 import vuejsSVG from '../../assets/frameworks/vuejs.svg';
-// import firebaseSVG from '../../assets/tools/firebase.svg';
+import firebaseSVG from '../../assets/tools/firebase.svg';
 import javascriptSVG from '../../assets/languages/javascript.svg';
 import htmlSVG from '../../assets/languages/html.svg';
 import cssSVG from '../../assets/languages/css.svg';
@@ -19,6 +19,7 @@ import djangoSVG from '../../assets/frameworks/django.svg';
 import postgresqlSVG from '../../assets/languages/postgresql.svg';
 import nodejsSVG from '../../assets/frameworks/nodejs.svg';
 import reactSVG from '../../assets/frameworks/react.svg';
+import mongodbSVG from '../../assets/tools/mongodb.svg';
 
 
 const projectItems = [
@@ -27,7 +28,7 @@ const projectItems = [
         description: "This is some fake description for me to adjust the styling later. This is a spam so I can see how it wraps around the div. I think it works fine, looks good to me!",
         demolink: "#",
         codeLink: "#",
-        techLogos: [vuejsSVG, javascriptSVG, htmlSVG, cssSVG, gitSVG],
+        techLogos: [vuejsSVG, javascriptSVG, htmlSVG, cssSVG, firebaseSVG, gitSVG],
         image: inprogress,
     },
     {
@@ -51,7 +52,7 @@ const projectItems = [
         description: "This is some fake description for me to adjust the styling later. This is a spam so I can see how it wraps around the div. I think it works fine, looks good to me!",
         demolink: "#",
         codeLink: "",
-        techLogos: [javascriptSVG, nodejsSVG, reactSVG, htmlSVG, cssSVG, chartjsSVG, gitSVG],
+        techLogos: [javascriptSVG, nodejsSVG, reactSVG, htmlSVG, cssSVG, mongodbSVG, chartjsSVG, gitSVG],
         image: inprogress,
     },
     

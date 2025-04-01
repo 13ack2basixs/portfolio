@@ -19,6 +19,8 @@ import gitSVG from '../../assets/tools/git.svg';
 import dockerSVG from '../../assets/tools/docker.svg';
 import awsSVG from '../../assets/tools/aws.svg';
 import tableauSVG from '../../assets/tools/tableau.svg';
+import firebaseSVG from '../../assets/tools/firebase.svg';
+import mongodbSVG from '../../assets/tools/mongodb.svg';
 
 import pandasSVG from '../../assets/libraries/pandas.svg';
 import numpySVG from '../../assets/libraries/numpy.svg';
@@ -57,6 +59,8 @@ const skills = () => {
                     <img src={gitSVG} alt='git' className='scale-up-sm-tool'/>
                     <img src={dockerSVG} alt='docker' className='scale-up-sm-tool'/>
                     <img src={tableauSVG} alt='tableau'/>
+                    <img src={mongodbSVG} alt='mongodb' className='scale-up-sm-tool'/>
+                    <img src={firebaseSVG} alt='firebase'/>
                     <img src={awsSVG} alt='aws'/>
                 </div>
 
