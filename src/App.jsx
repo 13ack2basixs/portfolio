@@ -3,6 +3,7 @@ import '@fontsource-variable/fira-code';
 import { FirstName, LastName } from './components/Name/Name';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About'
+import Skills from './components/Skills/Skills'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
         <FirstName />
       </div>
       <NavBar />
-      <About /> 
+      <About />
+      <Skills />
     </div>
   )
 }

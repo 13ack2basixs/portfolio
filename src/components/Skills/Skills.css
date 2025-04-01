@@ -1,0 +1,113 @@
+.skills-container {
+    font-family: 'Fira Code', monospace;
+}
+
+#skills {
+    font-size: 3.5rem;
+}
+
+.skills-subtitle {
+    font-size: 1.5rem;
+}
+
+/* Languages Styling */ 
+.languages-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.languages-icon-container img {
+    height: 50px;
+    width: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.languages-icon-container img:hover {
+    transform: scale(1.1);
+}
+
+.scale-up-sm-lang {
+    transform: scale(1.5);
+}
+
+.languages-icon-container .scale-up-sm-lang:hover {
+    transform: scale(1.8);
+}
+
+/* Frameworks Styling */
+.frameworks-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.frameworks-icon-container img {
+    height: 50px;
+    width: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.frameworks-icon-container img:hover {
+    transform: scale(1.1);
+}
+
+.scale-up-sm-fw {
+    transform: scale(1.2);
+}
+
+.frameworks-icon-container .scale-up-sm-fw:hover {
+    transform: scale(1.3);
+}
+
+/* Tools Styling */
+.tools-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.tools-icon-container img {
+    height: 50px;
+    width: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tools-icon-container img:hover {
+    transform: scale(1.1);
+}
+
+.scale-up-sm-tool {
+    transform: scale(1.1);
+}
+
+.tools-icon-container .scale-up-sm-tool:hover {
+    transform: scale(1.2);
+}
+
+/* Libraries Styling */
+.libraries-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.libraries-icon-container img {
+    height: 50px;
+    width: auto;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.libraries-icon-container img:hover {
+    transform: scale(1.2);
+}
+
