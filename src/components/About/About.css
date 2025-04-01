@@ -1,0 +1,12 @@
+.about-container {
+    font-family: 'Fira Code', monospace;
+}
+
+#about {
+    font-size: 3.5rem;
+}
+
+/* .about-para-container {
+    width: 200px;
+    word-wrap: break-word;
+} */
