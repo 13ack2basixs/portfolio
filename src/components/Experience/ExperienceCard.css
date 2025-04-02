@@ -9,10 +9,8 @@
 
 .experience-header {
     display: flex;
-    align-items: flex-start;
-    /* Align items at the top */
+    align-items: flex-start; /* Align items at the top */
     flex-wrap: wrap;
-    /* Ensure elements can wrap */
 }
 
 .experience-role {
