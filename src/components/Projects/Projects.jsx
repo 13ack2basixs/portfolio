@@ -52,7 +52,7 @@ const projectItems = [
     
 ]
 
-// Iterate over projectsData and create a ProjectCard
+// Iterate over projectsItems and create a ProjectCard
 const Projects = () => {
     return (
         <div className='projects-container'>

@@ -1,7 +1,5 @@
 import './ProjectCard.css';
 
-
-
 const ProjectCard = ({ title, description, demolink, techLogos, image }) => {
     const isSvg = image.startsWith('data:image/svg+xml');
     const imageClass = isSvg ? 'svg-image' : 'other-image'
@@ -14,7 +12,7 @@ const ProjectCard = ({ title, description, demolink, techLogos, image }) => {
             {demolink && (
                     <p><a href={demolink} target="_blank"><strong>Try it here!</strong></a></p>
                 )}
-            <div className="tech-logos">
+            <div className="project-tech-logos">
                 {/* Iterate through the array of icons */}
                 {techLogos.map((icon, index) => (
                 <img src={icon} key={index} alt="tech" />
