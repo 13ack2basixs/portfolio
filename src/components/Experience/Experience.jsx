@@ -35,7 +35,6 @@ const Experience = () => {
                     role={exp.role}
                     dates={exp.dates}
                     company={exp.company}
-                    description={exp.description}
                     bullets={exp.bullets}
                     techLogos={exp.techLogos}
                 />
