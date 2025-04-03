@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4b39a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#grad1)"/>
+  
+  <!-- Initials with Creative Font -->
+  <text x="50%" y="50%" font-family="'Courier New', Courier, monospace" font-size="32" font-weight="bold" fill="#333333" text-anchor="middle" alignment-baseline="central">
+    HW
+  </text>
+</svg>
