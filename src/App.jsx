@@ -7,11 +7,13 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
+import Socials from './components/Socials/Socials';
 
 function App() {
 
   return (
     <div>
+      <Socials />
       <div className='name-container'>
         <LastName />
         <FirstName />
