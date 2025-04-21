@@ -2,6 +2,7 @@ import ProjectCard from './ProjectCard';
 import './Projects.css';
 import inprogress from '../../assets/misc/inprogress.svg';
 import fintrack from '../../assets/previews/fintrack.png';
+import what2watch from '../../assets/previews/what2watch.png';
 
 import gitSVG from '../../assets/tools/git.svg';
 import vuejsSVG from '../../assets/frameworks/vuejs.svg';
@@ -28,7 +29,7 @@ const projectItems = [
         description: "Movie recommendation platform that consolidates content from mulitple streaming sites and provides personalised movie recommendations. With the overload of streaming options, what2watch helps users make informed decisions and discover hidden gems.",
         demolink: "https://what2watch-e748e.web.app/",
         techLogos: [vuejsSVG, javascriptSVG, htmlSVG, cssSVG, firebaseSVG, gitSVG],
-        image: inprogress,
+        image: what2watch,
     },
     {
         title: "AI CSV/Excel Analyser",
