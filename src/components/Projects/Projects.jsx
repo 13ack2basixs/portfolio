@@ -26,6 +26,7 @@ const projectItems = [
     {
         title: "what2watch",
         description: "Movie recommendation platform that consolidates content from mulitple streaming sites and provides personalised movie recommendations. With the overload of streaming options, what2watch helps users make informed decisions and discover hidden gems.",
+        demolink: "https://what2watch-e748e.web.app/",
         techLogos: [vuejsSVG, javascriptSVG, htmlSVG, cssSVG, firebaseSVG, gitSVG],
         image: inprogress,
     },
