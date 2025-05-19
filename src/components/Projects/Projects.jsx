@@ -47,7 +47,7 @@ const projectItems = [
     },
     {
         title: "BetaTrade",
-        description: "BetaTrade is a paper trading app t hat allows users to practice trading and investing in a risk-free environment with real-time market data. Many students fear losing money when learning to invest, thus I wanted to create an app that helps users build confidence in investing without any financial risk.",
+        description: "A paper trading app which allows users to practice trading and investing in a risk-free environment with real-time market data. Many students fear losing money when learning to invest, thus I wanted to create an app that helps users build confidence in investing without any financial risk.",
         demolink: "https://betatrade.vercel.app/",
         techLogos: [javascriptSVG, nodejsSVG, reactSVG, htmlSVG, cssSVG, mongodbSVG, chartjsSVG, gitSVG],
         image: inprogress,
@@ -67,7 +67,6 @@ const Projects = () => {
                     title={proj.title}
                     description={proj.description}
                     demolink={proj.demolink}
-                    codeLink={proj.codeLink}
                     techLogos={proj.techLogos}
                     image={proj.image}
                 />
