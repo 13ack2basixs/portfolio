@@ -1,8 +1,9 @@
 import ProjectCard from './ProjectCard';
 import './Projects.css';
-import inprogress from '../../assets/misc/inprogress.svg';
 import fintrack from '../../assets/previews/fintrack.png';
 import what2watch from '../../assets/previews/what2watch.png';
+import aifilereader from '../../assets/previews/aifilereader.png';
+import betatrade from '../../assets/previews/betatrade.png';
 
 import gitSVG from '../../assets/tools/git.svg';
 import vuejsSVG from '../../assets/frameworks/vuejs.svg';
@@ -36,7 +37,7 @@ const projectItems = [
         description: "Allow users to upload CSV/Excel files and interact with an AI to analyze data. Users can prompt the AI for insights, making data exploration simple and efficient. This is created to practise using LLM APIs with pandas",
         demolink: "https://aifilereader.streamlit.app/",
         techLogos: [pythonSVG, streamlitSVG, pandasSVG, gitSVG],
-        image: inprogress,
+        image: aifilereader,
     },
     {
         title: "Fintrack",
@@ -50,7 +51,7 @@ const projectItems = [
         description: "A paper trading app which allows users to practice trading and investing in a risk-free environment with real-time market data. Many students fear losing money when learning to invest, thus I wanted to create an app that helps users build confidence in investing without any financial risk.",
         demolink: "https://betatrade.vercel.app/",
         techLogos: [javascriptSVG, nodejsSVG, reactSVG, htmlSVG, cssSVG, mongodbSVG, chartjsSVG, gitSVG],
-        image: inprogress,
+        image: betatrade,
     },
     
 ]
