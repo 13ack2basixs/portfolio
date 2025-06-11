@@ -1,7 +1,7 @@
 import React from 'react';
 import './ExperienceCard.css';
 
-const ExperienceCard = ({ role, dates, company, bullets, techLogos }) => {
+const ExperienceCard = ({ role, dates, company, bullets }) => {
     return (
         <div className="experience-card-container">            
             <div className="experience-item">
@@ -15,11 +15,6 @@ const ExperienceCard = ({ role, dates, company, bullets, techLogos }) => {
                         <li key={index}>- {list}</li>
                     ))}
                 </ul>
-                <div className="experience-tech-logos">
-                    {techLogos.map((icon, index) => (
-                        <img src={icon} key={index} alt="tech" />
-                    ))}
-                </div>
             </div>
         </div>
     );

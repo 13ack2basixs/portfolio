@@ -1,13 +1,6 @@
 import ExperienceCard from './ExperienceCard';
 import './Experience.css';
 
-import reactSVG from '../../assets/frameworks/react.svg';
-import djangoSVG from '../../assets/frameworks/django.svg';
-import javascriptSVG from '../../assets/languages/javascript.svg';
-import htmlSVG from '../../assets/languages/html.svg';
-import cssSVG from '../../assets/languages/css.svg';
-import gitSVG from '../../assets/tools/git.svg';
-
 const experienceItems = [
     {
         role: "Frontend Developer",
@@ -18,7 +11,6 @@ const experienceItems = [
             "Developed frontend components with React Native to improve user's interactivity",
             "Collaborated with frontend and backend developers to integrate the project"
         ],
-        techLogos: [reactSVG, djangoSVG, javascriptSVG, htmlSVG, cssSVG, gitSVG],
     },
     
 ]
@@ -36,7 +28,6 @@ const Experience = () => {
                     dates={exp.dates}
                     company={exp.company}
                     bullets={exp.bullets}
-                    techLogos={exp.techLogos}
                 />
             ))}
         </div>
