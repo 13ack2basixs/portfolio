@@ -6,10 +6,17 @@ const experienceItems = [
         role: "Frontend Developer",
         dates: "Feb 2025 - Present",
         company: "Bridges for Enterprise",
-        description: "We build apps for early stage social entrepreneurs",
         bullets: [
             "Developed frontend components with React Native to improve user's interactivity",
             "Collaborated with frontend and backend developers to integrate the project"
+        ],
+    },
+    {
+        role: "Software Developer",
+        dates: "Jun 2025 - Present",
+        company: "Webot Singapore",
+        bullets: [
+            
         ],
     },
     
