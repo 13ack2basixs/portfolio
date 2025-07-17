@@ -7,6 +7,7 @@ import postgresqlSVG from '../../assets/languages/postgresql.svg';
 import cssSVG from '../../assets/languages/css.svg';
 import javascriptSVG from '../../assets/languages/javascript.svg';
 import rSVG from '../../assets/languages/r.svg';
+import typescriptSVG from '../../assets/languages/typescript.svg';
 
 import reactSVG from '../../assets/frameworks/react.svg';
 import djangoSVG from '../../assets/frameworks/django.svg';
@@ -14,6 +15,8 @@ import flaskSVG from '../../assets/frameworks/flask.svg';
 import streamlitSVG from '../../assets/frameworks/streamlit.svg';
 import vuejsSVG from '../../assets/frameworks/vuejs.svg';
 import nodejsSVG from '../../assets/frameworks/nodejs.svg';
+import umijsSVG from '../../assets/frameworks/umijs.png';
+import tailwindSVG from '../../assets/frameworks/tailwind.svg';
 
 import gitSVG from '../../assets/tools/git.svg';
 import dockerSVG from '../../assets/tools/docker.svg';
@@ -37,6 +40,7 @@ const skills = () => {
                     <img src={pythonSVG} alt='python' className='scale-up-sm-lang'/>
                     <img src={javaSVG} alt='java'/>
                     <img src={javascriptSVG} alt='javascript'/>
+                    <img src={typescriptSVG} alt='typescript'/>
                     <img src={mysqlSVG} alt='mysql' className='scale-up-sm-lang'/>
                     <img src={postgresqlSVG} alt='postgresql'/>
                     <img src={htmlSVG} alt='html'/>
@@ -52,6 +56,8 @@ const skills = () => {
                     <img src={djangoSVG} alt='django'/>
                     <img src={flaskSVG} alt='flask'/>
                     <img src={streamlitSVG} alt='streamlit'/>
+                    <img src={umijsSVG} alt='umijs'/>
+                    <img src={tailwindSVG} alt='tailwind'/>
                 </div>
 
                 <p className='skills-subtitle'>tools</p>
