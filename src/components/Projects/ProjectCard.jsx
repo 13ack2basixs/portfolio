@@ -7,7 +7,7 @@ const ProjectCard = ({ title, description, demolink, techLogos, image }) => {
         <div className="project-card-container">
         <div className="project-container">
             <h3 id='project-title'>{title}</h3>
-            <p>{description}</p>
+            <p style={{letterSpacing: '.6px'}}>{description}</p>
             {/* Render demoLink conditionally (if there is a link given) */}
             {demolink && (
                     <p><a href={demolink} target="_blank"><strong>Try it here!</strong></a></p>
