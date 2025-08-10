@@ -1,8 +1,14 @@
 import ExperienceCard from './ExperienceCard';
 import './Experience.css';
 
+import bfe from '../../assets/experiences/bfe.png';
+import webot from '../../assets/experiences/webot.svg';
+
+
 const experienceItems = [
     {
+        imgSrc: bfe,
+        imgAlt: 'bfe',
         role: "Frontend Developer",
         dates: "Feb 2025 - Present",
         company: "Bridges for Enterprise",
@@ -12,6 +18,8 @@ const experienceItems = [
         ],
     },
     {
+        imgSrc: webot,
+        imgAlt: 'webot',
         role: "Software Developer",
         dates: "Jun 2025 - Present",
         company: "Webot Singapore",
@@ -31,6 +39,8 @@ const Experience = () => {
             {experienceItems.map(exp => (
                 <ExperienceCard 
                     key={exp.role}
+                    imgSrc={exp.imgSrc}
+                    imgAlt={exp.imgAlt}
                     role={exp.role}
                     dates={exp.dates}
                     company={exp.company}

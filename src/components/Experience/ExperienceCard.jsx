@@ -1,9 +1,11 @@
-import React from 'react';
 import './ExperienceCard.css';
 
-const ExperienceCard = ({ role, dates, company, bullets }) => {
+const ExperienceCard = ({ imgSrc, imgAlt, role, dates, company, bullets }) => {
     return (
-        <div className="experience-card-container">            
+        <div className="experience-card-container">
+            <div className='experience-img-container'>
+                <img className={`experience-img`} src={imgSrc} alt={imgAlt} />
+            </div>
             <div className="experience-item">
                 <div className="experience-header">
                     <h3 className="experience-role">{role}</h3>
