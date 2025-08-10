@@ -12,10 +12,6 @@ const experienceItems = [
         role: "Frontend Developer",
         dates: "Feb 2025 - Present",
         company: "Bridges for Enterprise",
-        bullets: [
-            "Developed frontend components with React Native to improve user's interactivity",
-            "Collaborated with frontend and backend developers to integrate the project"
-        ],
     },
     {
         imgSrc: webot,
@@ -23,9 +19,6 @@ const experienceItems = [
         role: "Software Developer",
         dates: "Jun 2025 - Present",
         company: "Webot Singapore",
-        bullets: [
-            
-        ],
     },
     
 ]
@@ -44,7 +37,6 @@ const Experience = () => {
                     role={exp.role}
                     dates={exp.dates}
                     company={exp.company}
-                    bullets={exp.bullets}
                 />
             ))}
         </div>

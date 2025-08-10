@@ -1,22 +1,15 @@
 import './ExperienceCard.css';
 
-const ExperienceCard = ({ imgSrc, imgAlt, role, dates, company, bullets }) => {
+const ExperienceCard = ({ imgSrc, imgAlt, role, dates, company }) => {
     return (
         <div className="experience-card-container">
             <div className='experience-img-container'>
-                <img className={`experience-img`} src={imgSrc} alt={imgAlt} />
+                <img className="experience-img" src={imgSrc} alt={imgAlt} />
             </div>
-            <div className="experience-item">
-                <div className="experience-header">
-                    <h3 className="experience-role">{role}</h3>
-                    <span className="experience-dates">{dates}</span>
-                    <span className="experience-company">{company}</span>
-                </div>
-                <ul className="experience-bullets">
-                    {bullets.map((list, index) => (
-                        <li key={index}>- {list}</li>
-                    ))}
-                </ul>
+            <div className="experience-item"> 
+                <h3 className="experience-company">{company}</h3>
+                <span className="experience-role">{role}</span> | 
+                <span className="experience-dates"> {dates}</span>
             </div>
         </div>
     );

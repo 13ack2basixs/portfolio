@@ -1,14 +1,13 @@
 .experience-card-container {
     display: flex;
     align-items: flex-start;
-    max-width: 1000px;
-    margin: 0 auto;
-    gap: 20px;
+    max-width: 2000px;
+    margin: 50px 250px;
+    gap: 200px;
 }
 
 .experience-img-container {
     width: 200px;   
-    /* height: 140px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,55 +34,10 @@
 
 .experience-item {
     text-align: left;
-    /* margin-left: 20px; */
-}
-
-.experience-header {
-    display: flex;
-    align-items: flex-start; /* Align items at the top */
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.experience-role {
-    font-size: 1.75rem;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .experience-company {
-    font-size: 1.3rem;
-    width: 100%; /* Company takes the full width */
-}
-
-.experience-dates {
-    font-size: 1.3rem;    
-    margin-top: 30px; /* Align with role */
-    margin-left: auto; /* Align dates to the right */
-}
-
-.experience-bullets {
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 10px;
-}
-
-.experience-bullets li {
-    font-size: 1.1rem;
-    margin: 5px 0;
-}
-
-.experience-tech-logos {
-    display: flex;
-    justify-content: flex-start;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-}
-
-.experience-tech-logos img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
