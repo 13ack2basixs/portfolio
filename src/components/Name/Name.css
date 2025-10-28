@@ -1,18 +1,12 @@
 .name-container {
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 4rem;
 }
 
 .first-name,
 .last-name {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Fira Code', monospace;
     font-size: 12.5rem;
-    line-height: 1; /* avoids extra spacing between lines */
 }
 
 .last-name {

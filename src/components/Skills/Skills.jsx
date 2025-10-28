@@ -35,7 +35,7 @@ const skills = () => {
             <h2 id='skills'>Skills</h2>
             <div className='icon-container'>
 
-                <p className='skills-subtitle'>languages</p>
+                <p className='skills-subtitle'>Languages</p>
                 <div className='languages-icon-container'>
                     <a href='https://www.python.org/' target='_blank'><img src={pythonSVG} alt='python' className='scale-up-sm-lang'/></a>
                     <a href='https://www.java.com/en/' target='_blank'><img src={javaSVG} alt='java'/></a>
@@ -48,7 +48,7 @@ const skills = () => {
                     <a href='https://www.r-project.org/' target='_blank'><img src={rSVG} alt='r'/></a>
                 </div>
 
-                <p className='skills-subtitle'>frameworks</p>
+                <p className='skills-subtitle'>Frameworks</p>
                 <div className='frameworks-icon-container'>
                     <a href='https://react.dev/' target='_blank'><img src={reactSVG} alt='react' className='scale-up-sm-fw'/></a>
                     <a href='https://nodejs.org/en' target='_blank'><img src={nodejsSVG} alt='nodejs'/></a>
@@ -60,7 +60,7 @@ const skills = () => {
                     <a href='https://tailwindcss.com/' target='_blank'><img src={tailwindSVG} alt='tailwind'/></a>
                 </div>
 
-                <p className='skills-subtitle'>tools</p>
+                <p className='skills-subtitle'>Tools</p>
                 <div className='tools-icon-container'>
                     <a href='https://git-scm.com/' target='_blank'><img src={gitSVG} alt='git' className='scale-up-sm-tool'/></a>
                     <a href='https://www.docker.com/' target='_blank'><img src={dockerSVG} alt='docker' className='scale-up-sm-tool'/></a>
@@ -70,7 +70,7 @@ const skills = () => {
                     <a href='https://aws.amazon.com/' target='_blank'><img src={awsSVG} alt='aws'/></a>
                 </div>
 
-                <p className='skills-subtitle'>libraries</p>
+                <p className='skills-subtitle'>Libraries</p>
                 <div className='libraries-icon-container'>
                     <a href='https://pandas.pydata.org/' target='_blank'><img src={pandasSVG} alt='pandas'/></a>
                     <a href='https://numpy.org/' target='_blank'><img src={numpySVG} alt='numpy'/></a>

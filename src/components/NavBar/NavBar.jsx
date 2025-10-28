@@ -2,9 +2,9 @@ import './NavBar.css'
 
 const navItems = [
     { name: 'about', href: '#about' },
+    { name: 'experiences', href: '#experiences' },
     { name: 'skills', href: '#skills' },
     { name: 'projects', href: '#projects' },
-    { name: 'experience', href: '#experience' },
     { name: 'contact', href: '#contact' },
 ]
 

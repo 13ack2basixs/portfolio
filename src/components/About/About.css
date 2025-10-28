@@ -1,11 +1,8 @@
-.about-container {
-    font-family: 'Fira Code', monospace;
-}
-
 #about {
     font-size: 3.5rem;
 }
 
 .intro {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    margin: 5px;
 }

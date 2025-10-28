@@ -20,9 +20,9 @@ function App() {
       </div>
       <NavBar />
       <About />
+      <Experience />
       <Skills />
       <Projects />
-      <Experience />
       <Contact />
     </div>
   )
